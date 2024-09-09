@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main ()
+
+{
+
+	//local variable
+	int x=4;
+	int y=2; 
+	int sum, dif, prod, remainder;
+	float quotient;
+	
+	
+	//calculation of sum
+	sum=(x+y);
+	
+	//calculation of dif
+	dif=(x-y);
+	
+	//calculation of prod
+	prod=(x*y);
+	
+	//calculation of quotient
+	quotient=(x/y);
+	
+	//calculation of remainder
+	remainder=(x%y);
+	
+	//print
+	cout<<"The result of the sum is "<<sum<<endl;
+	cout<<"The result of the difference is "<<dif<<endl;
+	cout<<"The result of the product is "<<prod<<endl;
+	cout<<"The result of the quotient is "<<quotient<<endl;
+	cout<<"The result of the remainder is "<<remainder<<endl;
+	
+	return 0;
+	
+}
