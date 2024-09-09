@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+
+//local variables
+int num1=0,num2=0,num3=0,average=0,add=0,subtract=0,multiply=0,divide=0;
+cout<<"Input num1:";
+cin>>num1;
+cout<<"Input num2:";
+cin>>num2;
+cout<<"Input num3:";
+cin>>num3;
+// Calculation of Average
+average=(num1+num2+num3)/3.0;
+// Calculation of Sum
+add=(num1+num2+num3);
+// Calculation of Difference
+subtract=(num1-num2-num3);
+// Calculation of Product
+multiply=(num1*num2*num3);
+// Calculation of Quotient
+divide=(num1/num2/num3);
+// Print the Results
+cout<<"The input average is "<<average ;
+cout<<"The input sum is "<<add ;
+cout<<"The input difference is "<<subtract ;
+cout<<"The input product is "<<multiply ;
+cout<<"The input quotient is "<<divide ;
+return 0;
+
+}
