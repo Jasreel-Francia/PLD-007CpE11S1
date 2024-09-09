@@ -27,6 +27,8 @@ int main ()
 	remainder=(x%y);
 	
 	//print
+	cout<<"Algorithm to get the Sum, Difference, Product, Quotient, and Remainder of Two Integers."<<endl<<endl;
+	
 	cout<<"The result of the sum is "<<sum<<endl;
 	cout<<"The result of the difference is "<<dif<<endl;
 	cout<<"The result of the product is "<<prod<<endl;
