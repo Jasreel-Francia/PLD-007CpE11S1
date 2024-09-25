@@ -15,26 +15,26 @@ cin>>c;
 
 switch(c)
 {
-	//Gender
-	case 'f':
-		cout<<"Female";
-		break;
-	case 'F':
-		cout<<"Female";
-		break;
+//Gender
+case 'f':
+	cout<<"Female";
+	break;
+case 'F':
+	cout<<"Female";
+	break;
 	
-	case 'm':
-		cout<<"Male";
-		break;
-	case 'M':
-		cout<<"Male";
-		break;
+case 'm':
+	cout<<"Male";
+	break;
+case 'M':
+	cout<<"Male";
+	break;
 		
-		default:
-			{
-				cout<<"invalid";
-				break;		
-			}
+	default:
+	{
+	cout<<"invalid";
+	break;		
+	}
 }
 return 0;
 }
