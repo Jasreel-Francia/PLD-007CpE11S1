@@ -5,11 +5,11 @@ int main()
 {
 
 //Exercise 5!!!
-//create a c++ program to determine if alphabet is vowel or consonant
+//create a c++ program to determine Female and Male
 
 char c;
 
-cout<<"Enter the letter/alphabet: ";
+cout<<"Enter the sex prefix: ";
 cin>>c;
 
 
