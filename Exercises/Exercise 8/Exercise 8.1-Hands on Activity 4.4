@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <ctype.h>
+int main ()
+{
+	printf("%s\n%s%s\n%s%s\n%s%s\n%s%s\n\n", "According to islower:", //Determines if ch is a lowercase letter or no.
+
+        islower('p') ? "p is a ": "p is not a ", "lowercase letter",
+        islower('P') ? "P is a ": "P is not a ", "lowercase letter",
+        islower('5') ? "5 is a ": "5 is not a ", "lowercase letter",
+        islower('!') ? "! is a ": "! is not a ", "lowercase letter");
+        
+    printf("%s\n%s%s\n%s%s\n%s%s\n%s%s\n\n", "According to isupper:", //Determines if ch is an uppercase letter or no.
+        isupper('D') ? "D is an ": "D is not an ", "uppercase letter",
+        isupper('d') ? "d is an ": "d is not an ", "uppercase letter",
+        isupper('8') ? "8 is an ": "8 is not an ", "uppercase letter",
+        isupper('&') ? "& is an ": "& is not an ", "uppercase letter");
+        
+char ch1=toupper('u'), ch2=toupper('7'), ch3=toupper('$'), ch4=tolower('L'); //Converts ch to its said function.
+
+     	printf("Converting: \n");
+     	printf("u converted to uppercase is %c\n", ch1);
+		printf("7 converted to uppercase is %c\n", ch2);
+		printf("$ converted to uppercase is %c\n", ch3);
+		printf("L converted to lowercase is %c\n", ch4);
+        
+        return 0;
+}
