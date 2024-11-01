@@ -30,7 +30,7 @@ int main ()
 		 
  			char lowwer=tolower(ch), uppper=toupper(ch);
  		
- 		if (islower(ch)) //covert to uppercase
+ 		if (islower(ch)) //covert to uppercase and lowercase
  		{
 		 	printf("%c converted to uppercase alphabet is", ch);
 			printf(" %c. \n", uppper);
