@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int main() {
+int main()
+{
     char str1[20], str2[20], str3[20], str4[20];
     int num1, num2, num3, num4;
     int total;
