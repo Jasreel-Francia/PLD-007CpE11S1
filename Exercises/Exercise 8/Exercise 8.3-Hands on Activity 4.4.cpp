@@ -6,7 +6,7 @@ int main() {
     int num1, num2, num3, num4;
     int total;
 
-    // Input 4 strings
+    //Input
     printf("Enter first integer: ");
     fgets(str1, sizeof(str1), stdin);
     printf("Enter second integer: ");
@@ -16,16 +16,16 @@ int main() {
     printf("Enter fourth integer: ");
     fgets(str4, sizeof(str4), stdin);
 
-    // Convert strings to integers
+    //strings to integers
     num1 = atoi(str1);
     num2 = atoi(str2);
     num3 = atoi(str3);
     num4 = atoi(str4);
 
-    // Calculate the total
+    //Calculate
     total = num1 + num2 + num3 + num4;
 
-    // Print the total
+    //Print
     printf("The total of the four values is: %d\n", total);
 
     return 0;
